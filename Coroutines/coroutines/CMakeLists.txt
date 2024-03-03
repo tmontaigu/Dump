@@ -1,0 +1,5 @@
+﻿cmake_minimum_required (VERSION 3.8)
+
+add_library (coroutines STATIC "coroutines.c" "coroutines.h")
+target_include_directories(coroutines PUBLIC "${CMAKE_CURRENT_LIST_DIR}")
+
